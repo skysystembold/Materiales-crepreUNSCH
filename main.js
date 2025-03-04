@@ -164,5 +164,6 @@ if (window.location.pathname === "/index.html") {
     const closeX = document.querySelector("#closeX")
     closeX.addEventListener("click", () => {
     informacion.style.display = "none"
+    console.log("funciona!!!!*)
 })
 }
