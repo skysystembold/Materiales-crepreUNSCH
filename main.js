@@ -160,10 +160,12 @@ if (currentPath.includes("index.html")) {
 
 // main.js
 if (window.location.pathname === "/index.html") {
-    const informacion = document.querySelector(".informacion")
+    console.log("hola")
+})
+}
+
+const informacion = document.querySelector(".informacion")
     const closeX = document.querySelector("#closeX")
     closeX.addEventListener("click", () => {
     informacion.style.display = "none"
     console.log("funciona!!!!")
-})
-}
