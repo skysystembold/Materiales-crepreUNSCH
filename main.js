@@ -1,3 +1,5 @@
+console.log("Javascript Funcionando")
+
 // Función para cargar el contenido en el contenedor "contenidoPDF"
 
 function cargarContenido(lista) {
@@ -160,12 +162,11 @@ if (currentPath.includes("index.html")) {
 
 // main.js
 if (window.location.pathname === "/index.html") {
-    console.log("hola")
-})
-}
-
-const informacion = document.querySelector(".informacion")
+    const informacion = document.querySelector(".informacion")
     const closeX = document.querySelector("#closeX")
     closeX.addEventListener("click", () => {
     informacion.style.display = "none"
-    console.log("funciona!!!!")
+})
+}
+
+
