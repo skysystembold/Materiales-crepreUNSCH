@@ -36,11 +36,7 @@ let rv = [
 
 let lenguje = [];
 
-let literatura = [
-  {
-    "link": ""
-  }
-];
+let literatura = [];
 
 let rm = [
   {
