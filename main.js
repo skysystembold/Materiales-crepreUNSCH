@@ -157,7 +157,7 @@ if (currentPath.includes("index.html")) {
 
 
 // main.js
-if (window.location.pathname === "/index.html") {
+if (window.location.pathname == "index.html") {
     const informacion = document.querySelector(".informacion")
     const closeX = document.querySelector("#closeX")
     closeX.addEventListener("click", () => {
