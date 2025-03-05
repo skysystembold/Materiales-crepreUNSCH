@@ -1,5 +1,11 @@
-console.log("Javascript Funcionando")
-
+// main.js
+if (window.location.pathname == "index.html") {
+    const informacion = document.querySelector(".informacion")
+    const closeX = document.querySelector("#closeX")
+    closeX.addEventListener("click", () => {
+    informacion.style.display = "none"
+})
+}
 // Función para cargar el contenido en el contenedor "contenidoPDF"
 
 function cargarContenido(lista) {
@@ -153,15 +159,3 @@ if (currentPath.includes("index.html")) {
     }
   }
 }
-
-
-
-// main.js
-if (window.location.pathname == "index.html") {
-    const informacion = document.querySelector(".informacion")
-    const closeX = document.querySelector("#closeX")
-    closeX.addEventListener("click", () => {
-    informacion.style.display = "none"
-})
-}
-
